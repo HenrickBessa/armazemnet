@@ -1,0 +1,75 @@
+.aboutContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.aboutSection {
+width: 48%;
+margin-bottom: 20px;
+}
+
+.aboutSectionContent {
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+.aboutTitle {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #333;
+}
+
+.companyInfoTitle {
+color: #555;
+margin-bottom: 10px;
+}
+
+.companyInfo {
+color: #777;
+line-height: 1.6;
+}
+.imageCarousel {
+    position: relative;
+    height: 300px; 
+    width: 100%; 
+    overflow: hidden;
+  }
+  
+  .imageCarousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carouselControls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .carouselControls button {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    /* transition: background 0.3s ease; */
+  }
+  
+  .carouselControls button:hover {
+    background: rgba(255, 255, 255, 0.8);
+  }

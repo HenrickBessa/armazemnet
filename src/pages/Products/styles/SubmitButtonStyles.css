@@ -1,0 +1,34 @@
+.submitButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.whatsappButton {
+    background-color: #25d366;
+    color: #FFF;
+    border: 1px solid #25d366;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 40px;
+    font-size: 18px;
+    transition: 1s;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.whatsappButton:hover {
+    transition: 1s;
+    background-color: #25b359;
+}
+
+.whatsappButton img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}

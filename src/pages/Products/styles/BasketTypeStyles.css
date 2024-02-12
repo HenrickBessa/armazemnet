@@ -1,0 +1,26 @@
+.basketContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.basketContainer label {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.basketContainer select {
+    list-style: none;
+    font-size: none;
+    height: 43px;
+    font-size: 16px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: darkgray;
+}
+
+.basketContainer p {
+    font-size: 14px;
+    color: rgb(255, 61, 61);
+    font-style: italic;
+}

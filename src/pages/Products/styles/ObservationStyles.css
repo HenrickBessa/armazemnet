@@ -1,0 +1,24 @@
+.observationContainer {
+    margin-top: 16px;
+}
+.observationContainer textarea {
+    list-style: none;
+    width: 100%;
+    margin: 6px 0;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: darkgray;
+    resize: none;
+    padding: 14px;
+}
+
+.observationContainer label {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.observationContainer p {
+    font-size: 14px;
+    color: rgb(255, 61, 61);
+    font-style: normal;
+}
